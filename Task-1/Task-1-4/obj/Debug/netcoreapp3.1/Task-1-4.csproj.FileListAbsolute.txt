@@ -1,0 +1,12 @@
+D:\PragmatechCsharpProject\Task-1\Task-1-4\bin\Debug\netcoreapp3.1\Task-1-4.exe
+D:\PragmatechCsharpProject\Task-1\Task-1-4\bin\Debug\netcoreapp3.1\Task-1-4.deps.json
+D:\PragmatechCsharpProject\Task-1\Task-1-4\bin\Debug\netcoreapp3.1\Task-1-4.runtimeconfig.json
+D:\PragmatechCsharpProject\Task-1\Task-1-4\bin\Debug\netcoreapp3.1\Task-1-4.runtimeconfig.dev.json
+D:\PragmatechCsharpProject\Task-1\Task-1-4\bin\Debug\netcoreapp3.1\Task-1-4.dll
+D:\PragmatechCsharpProject\Task-1\Task-1-4\bin\Debug\netcoreapp3.1\Task-1-4.pdb
+D:\PragmatechCsharpProject\Task-1\Task-1-4\obj\Debug\netcoreapp3.1\Task-1-4.AssemblyInfoInputs.cache
+D:\PragmatechCsharpProject\Task-1\Task-1-4\obj\Debug\netcoreapp3.1\Task-1-4.AssemblyInfo.cs
+D:\PragmatechCsharpProject\Task-1\Task-1-4\obj\Debug\netcoreapp3.1\Task-1-4.csproj.CoreCompileInputs.cache
+D:\PragmatechCsharpProject\Task-1\Task-1-4\obj\Debug\netcoreapp3.1\Task-1-4.dll
+D:\PragmatechCsharpProject\Task-1\Task-1-4\obj\Debug\netcoreapp3.1\Task-1-4.pdb
+D:\PragmatechCsharpProject\Task-1\Task-1-4\obj\Debug\netcoreapp3.1\Task-1-4.genruntimeconfig.cache

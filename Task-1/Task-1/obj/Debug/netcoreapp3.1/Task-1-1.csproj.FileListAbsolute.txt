@@ -1,0 +1,13 @@
+D:\PragmatechCsharpProject\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1-1.exe
+D:\PragmatechCsharpProject\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1-1.deps.json
+D:\PragmatechCsharpProject\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1-1.runtimeconfig.json
+D:\PragmatechCsharpProject\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1-1.runtimeconfig.dev.json
+D:\PragmatechCsharpProject\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1-1.dll
+D:\PragmatechCsharpProject\Task-1\Task-1\bin\Debug\netcoreapp3.1\Task-1-1.pdb
+D:\PragmatechCsharpProject\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1-1.csprojAssemblyReference.cache
+D:\PragmatechCsharpProject\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1-1.AssemblyInfoInputs.cache
+D:\PragmatechCsharpProject\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1-1.AssemblyInfo.cs
+D:\PragmatechCsharpProject\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1-1.csproj.CoreCompileInputs.cache
+D:\PragmatechCsharpProject\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1-1.dll
+D:\PragmatechCsharpProject\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1-1.pdb
+D:\PragmatechCsharpProject\Task-1\Task-1\obj\Debug\netcoreapp3.1\Task-1-1.genruntimeconfig.cache
