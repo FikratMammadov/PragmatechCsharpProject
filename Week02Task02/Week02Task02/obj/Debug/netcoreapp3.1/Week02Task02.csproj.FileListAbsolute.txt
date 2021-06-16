@@ -1,0 +1,13 @@
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\bin\Debug\netcoreapp3.1\Week02Task02.exe
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\bin\Debug\netcoreapp3.1\Week02Task02.deps.json
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\bin\Debug\netcoreapp3.1\Week02Task02.runtimeconfig.json
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\bin\Debug\netcoreapp3.1\Week02Task02.runtimeconfig.dev.json
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\bin\Debug\netcoreapp3.1\Week02Task02.dll
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\bin\Debug\netcoreapp3.1\Week02Task02.pdb
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\obj\Debug\netcoreapp3.1\Week02Task02.csprojAssemblyReference.cache
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\obj\Debug\netcoreapp3.1\Week02Task02.AssemblyInfoInputs.cache
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\obj\Debug\netcoreapp3.1\Week02Task02.AssemblyInfo.cs
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\obj\Debug\netcoreapp3.1\Week02Task02.csproj.CoreCompileInputs.cache
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\obj\Debug\netcoreapp3.1\Week02Task02.dll
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\obj\Debug\netcoreapp3.1\Week02Task02.pdb
+D:\PragmatechCsharpProject\Week02Task02\Week02Task02\obj\Debug\netcoreapp3.1\Week02Task02.genruntimeconfig.cache
