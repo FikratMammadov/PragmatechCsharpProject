@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Week03Task07
 {
@@ -6,6 +7,8 @@ namespace Week03Task07
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
             char[] saitler = new char[]{ 'a', 'ı', 'o', 'u', 'e', 'ə', 'i', 'ö', 'ü'};
             Console.Write("Bir soz daxil edin: ");
             string soz = Console.ReadLine();
