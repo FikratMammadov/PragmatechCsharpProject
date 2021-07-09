@@ -23,7 +23,6 @@ namespace Task02
             if (!string.IsNullOrEmpty(user))
             {
                 listBox1.Items.Add(user);
-
                 textBox1.Clear();
                 textBox1.Focus();
             }

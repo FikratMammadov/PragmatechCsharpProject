@@ -84,7 +84,13 @@ namespace Task06
 
             listView1.Items.Add(masin);
 
-            markaComboBox.Text = "";
+            markaComboBox.SelectedIndex =-1;
+            modelComboBox.SelectedIndex = -1;
+            yanacaqComboBox.SelectedIndex = -1;
+            kuzaComboBox.SelectedIndex = -1;
+            skorostComboBox.SelectedIndex = -1;
+            motorComboBox.SelectedIndex = -1;
+            dateTimePicker1.Value = DateTime.Now;
             
         }
     }

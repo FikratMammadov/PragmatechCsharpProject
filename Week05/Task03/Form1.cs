@@ -50,7 +50,8 @@ namespace Task03
                 if (!rndNums.Contains(rndNum))
                 {
                     rndNums[i] = rndNum;
-                    users.Add(listBox1.Items[rndNums[i]-1].ToString());
+                    int index = rndNums[i] - 1;
+                    users.Add(listBox1.Items[index].ToString());
                 }
                 else
                 {
