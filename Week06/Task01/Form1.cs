@@ -57,8 +57,8 @@ namespace Task01
             ListViewItem lst = new ListViewItem();
             lst.Text = p.ProductCategory;
             lst.SubItems.Add(p.ProductName);
-            lst.SubItems.Add(p.ProductWeight.ToString());
-            lst.SubItems.Add(p.ProductPrice.ToString());
+            lst.SubItems.Add(p.ProductWeight.ToString()+" kq");
+            lst.SubItems.Add(p.ProductPrice.ToString()+" AZN");
             lst.SubItems.Add(p.ProductDelivery);
             lst.SubItems.Add(p.Date.ToString("dd-MM-yyyy HH:mm"));
             listView1.Items.Add(lst);
@@ -118,7 +118,8 @@ namespace Task01
             else
             {
                 MessageBox.Show(msg);
-            } 
+            }
+            searchTextBox.Clear();
         }
 
         private void deleteCheckedBtn_Click(object sender, EventArgs e)
@@ -138,11 +139,13 @@ namespace Task01
             {
                 selectedItem.Remove();
             }
+            MessageBox.Show(selectedItemNum + " mehsul silindi.");
         }
 
         private void deleteAllBtn_Click(object sender, EventArgs e)
         {
             listView1.Items.Clear();
+            MessageBox.Show("Butun mehsullar silindi.");
         }
     }
 }
