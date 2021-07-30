@@ -26,7 +26,8 @@ namespace Task01
         private void orderBtn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(categoryComboBox.Text)||string.IsNullOrEmpty(productComboBox.Text)
-                || weightNumericUpDown.Value==0 || priceNumericUpDown.Value==0 || string.IsNullOrEmpty(deliveryComboBox.Text))
+                || weightNumericUpDown.Value==0 || priceNumericUpDown.Value==0 ||
+                string.IsNullOrEmpty(deliveryComboBox.Text))
             {
                 MessageBox.Show("Zəhmət olmasa xanaların hamısını doldurun.");
             }
