@@ -164,8 +164,7 @@ namespace PizzaApp
 
         private void addShoppingCartBtn_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(_pizza.Name) && !string.IsNullOrEmpty(_pizza.Size)
-                && !numberUpDown.Value.Equals(0m))
+            if (!numberUpDown.Value.Equals(0m))
             {
                 double totalPrice = PizzaPrice(_pizza);
                  
@@ -176,6 +175,7 @@ namespace PizzaApp
 
                 string pizzaInfo = $"{_pizza.Size} {_pizza.Name} pizza,     Ingridients: {ingridientsMsg}     Qiymet: {totalPrice}";
                 shoppingCartListBox.Items.Add(pizzaInfo);
+                ClearControls();
             }
             else
             {
@@ -184,15 +184,21 @@ namespace PizzaApp
 
 
             // reset
-            ClearControls();
+             
         }
 
         private void orderBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Sifaris tesdiq olundu.");
-            shoppingCartListBox.Items.Clear();
+            if (shoppingCartListBox.Items.Count==0)
+            {
+                MessageBox.Show("Sebet bosdur.");
+            }
+            else
+            {
+                MessageBox.Show("Sifaris tesdiq olundu.");
+                shoppingCartListBox.Items.Clear();
+            }
+             
         }
-    }
-
-     
+    }   
 }
