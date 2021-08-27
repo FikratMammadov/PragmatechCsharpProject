@@ -167,14 +167,18 @@ insert into Urunler
 values('Samsung S20',4,5,'8 ram',2500,6,0,0,0)
 
 begin transaction
+declare @id int
+set @id = scope_identity()
 update Urunler
 set BirimFiyati = 2400,HedefStokDuzeyi=10
-where UrunAdi = 'Samsung S20'
+where UrunID = @id
 rollback
 
 begin transaction Task18Deleting
+declare @id int
+set @id = scope_identity()
 delete from Urunler
-where UrunAdi = 'Samsung S20'
+where UrunID = @id
 rollback 
 
 -- 19. Hem mushterilerimizi hem de tedarukculerimizi listleyen sorgunu yazin.
@@ -188,6 +192,7 @@ on u.UrunID = sd.UrunID
 full join Tedarikciler t
 on t.TedarikciID = u.TedarikciID
 order by m.MusteriID,t.TedarikciID
+
 
 -- 20. Hansi tedarukcuden toplamda nece dollarliq mal tedaruk edilmishdir?(Butun tedarukculer gelmelidir)
 select t.TedarikciID,u.UrunID,sum(sd.BirimFiyati)[Toplam satis fiyati] from Tedarikciler t
