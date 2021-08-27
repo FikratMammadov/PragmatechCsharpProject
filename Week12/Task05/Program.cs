@@ -7,16 +7,14 @@ namespace Task05
     {
         static void Main(string[] args)
         {
-            //Yaratdiginiz subfolderin icinde iki file yaradin,file-lardan biri word,biri excel formatinda olsun.
+            //Yaratdiginiz subfolderin icinde iki txt file yaradin.
             string subFolder = @"D:\CSharpGroup3\SubFolderCSharpGroup3\";
-            string[] files = new string[] { "textFile.txt", "excelFile.xlsx" };
+            string[] files = new string[] { "textFile1.txt", "textFile2.txt", };
 
             foreach (var file in files)
             {
                 File.Create(subFolder + file);
             }
-
-
         }
     }
 }

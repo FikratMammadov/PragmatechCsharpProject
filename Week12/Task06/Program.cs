@@ -7,15 +7,12 @@ namespace Task06
     {
         static void Main(string[] args)
         {
-            //CSharpGroup3 folderin icinde olan butun file-lari goturun ve extension - i txt olan file - i tapin
+            //SubFolderCSharpGroup3 folderin icinde olan butun file-lari goturun.
             string subFolder = @"D:\CSharpGroup3\SubFolderCSharpGroup3";
             foreach (var file in Directory.GetFiles(subFolder))
             {
                 FileInfo info = new FileInfo(file);
-                if (Path.GetExtension(file)==".txt")
-                {
-                    Console.WriteLine(info.Name);
-                }
+                Console.WriteLine(info.Name);
             }
         }
     }

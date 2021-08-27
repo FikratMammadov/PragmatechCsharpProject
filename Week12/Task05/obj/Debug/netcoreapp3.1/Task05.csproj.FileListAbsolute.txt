@@ -10,3 +10,4 @@ D:\PragmatechCsharpProject\Week12\Task05\obj\Debug\netcoreapp3.1\Task05.csproj.C
 D:\PragmatechCsharpProject\Week12\Task05\obj\Debug\netcoreapp3.1\Task05.dll
 D:\PragmatechCsharpProject\Week12\Task05\obj\Debug\netcoreapp3.1\Task05.pdb
 D:\PragmatechCsharpProject\Week12\Task05\obj\Debug\netcoreapp3.1\Task05.genruntimeconfig.cache
+D:\PragmatechCsharpProject\Week12\Task05\obj\Debug\netcoreapp3.1\Task05.csprojAssemblyReference.cache
